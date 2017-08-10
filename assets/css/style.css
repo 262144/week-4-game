@@ -1,0 +1,72 @@
+body {
+	font-family: sans-serif;
+	background-image: url("../images/background.jpg");
+}
+
+.jumbotron {
+	background-color: brown;
+	color: white;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	max-height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1, h3, h4 {
+	text-align: center;
+	font-size: 100%;
+}
+
+h3 {
+	text-decoration: blink;
+}
+
+.instructions {
+/*	background-color: beige;*/
+	color: green;
+	font-size: 17px;
+}
+
+.numberColumn {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	color: white;
+	background-color: blue;
+	margin-bottom: 10px;
+	max-width: 200px;
+	font-size: 1.5vmax;
+}
+
+.well {
+	color: black
+	font-weight: bold;
+}
+
+#rn, #s, #w, #l {
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+.crystal {
+	width: 100%;
+	height: auto;
+	max-width: 130px;
+	max-height: 130px;
+}
+
+.btn-group {
+	background-color: purple;
+}
+
+#message {
+	font-size: 32px;
+	font-weight: bold;
+}
